@@ -1,0 +1,31 @@
+theme = "lynx"
+baseURL = "https://nych.pl/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Adam Nych"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Adam Nych"
+  headline = "DevOps/Cloud Engineer"
+  # image = "img/author.jpg"  # path relative to static directory
+
+  links = [
+    { email = "mailto:adam@nych.pl" },
+    # { link = "https://link-to-some-website.com/" },
+    { linkedin = "https://linkedin.com/in/adam-nych-4121981a4" },
+    { github = "https://github.com/a-nych" },
+    # { gitlab = "https://gitlab.com/username" },
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
+
